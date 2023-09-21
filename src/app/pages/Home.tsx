@@ -5,10 +5,10 @@ import { HighlightedContent } from '../components/HighlightedContent';
 import { ConversionSection } from '../components/ConvertionSection';
 
 export const Home = () => (
-  <main>
-    <Hero />
-    <AstronautSection />
-    <HighlightedContent />
-    <ConversionSection />
-  </main>
-)
+	<main>
+		<Hero />
+		<AstronautSection />
+		<HighlightedContent />
+		<ConversionSection />
+	</main>
+);
