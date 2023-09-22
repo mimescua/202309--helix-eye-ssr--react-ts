@@ -6,14 +6,14 @@ import { Galaxies } from '../pages/Galaxies';
 import { Home } from '../pages/Home';
 import { GlobalStyles } from '../styles/GlobalStyles';
 
-export const App = () => {
+export const App = (props) => {
 	return (
 		<>
 			<GlobalStyles />
 			<Menu />
 			<Routes>
 				<Route index path="/" element={<Home />} />
-				<Route path="/galaxias" element={<Galaxies />} />
+				<Route path="/galaxias" element={<Galaxies {...props} />} />
 			</Routes>
 			<Footer />
 		</>
